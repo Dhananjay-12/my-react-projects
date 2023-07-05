@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.counter {
+  display: flex;
+  gap: 1 rem;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0 1rem;
+  width: 2.5rem;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(188, 117, 253);
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
