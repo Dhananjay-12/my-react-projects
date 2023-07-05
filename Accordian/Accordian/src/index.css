@@ -1,0 +1,61 @@
+.container {
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 30rem;
+}
+
+.item {
+  display: flex;
+  /* gap: 2rem; */
+  background-color: rgb(255, 255, 255);
+
+  box-shadow: rgba(35, 34, 34, 0.16) 0px 1px 4px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  flex-wrap: wrap;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.title {
+  padding-right: 4rem;
+  font-size: 1.2rem;
+}
+
+.text {
+  color: black;
+
+  padding-left: 4rem;
+  padding-bottom: 0.4rem;
+}
+
+.icon {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.toggle-color {
+  border-top: 2px solid green;
+  color: green;
+  transition: all 0.2s ease-in;
+}
+
+.hidden {
+  display: none;
+}
