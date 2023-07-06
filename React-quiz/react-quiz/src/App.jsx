@@ -2,6 +2,7 @@ import { useEffect, useReducer } from "react";
 
 import Header from "./Header";
 import StartScreen from "./StartScreen";
+import Question from "./Question";
 import Loader from "./Loader";
 import Error from "./Error";
 import MainSection from "./MainSection";
@@ -24,6 +25,12 @@ function reducer(state, action) {
       return {
         ...state,
         status: "error",
+      };
+
+    case "start":
+      return {
+        ...state,
+        status: "active",
       };
 
     default:
@@ -53,7 +60,10 @@ function App() {
       <MainSection>
         {status === "loading" && <Loader />}
         {status === "error" && <Error />}
-        {status === "ready" && <StartScreen numQuestions={numQuestions} />}
+        {status === "ready" && (
+          <StartScreen numQuestions={numQuestions} dispatch={dispatch} />
+        )}
+        {status === "active" && <Question />}
       </MainSection>
     </div>
   );
