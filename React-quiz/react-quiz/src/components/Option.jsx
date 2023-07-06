@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 export default function Option({ question, answer, dispatch }) {
   const hasAnswered = answer !== null;
   return (
@@ -23,12 +21,3 @@ export default function Option({ question, answer, dispatch }) {
     </div>
   );
 }
-
-Option.propTypes = {
-  question: PropTypes.shape({
-    question: PropTypes.string,
-    options: PropTypes.array,
-    answer: PropTypes.number,
-    dispatch: PropTypes.func,
-  }).isRequired,
-};
