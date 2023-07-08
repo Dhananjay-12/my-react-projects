@@ -55,3 +55,7 @@
   background-color: var(--color-brand--1);
   color: var(--color-dark--1);
 }
+
+li {
+  list-style: none;
+}
