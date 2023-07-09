@@ -35,54 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
-    },
-    {
-      "cityName": "Allepuz",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-07-09T06:21:50.068Z",
-      "notes": "hello",
-      "position": {
-        "lat": "40.463666324587685",
-        "lng": "-0.6591796875000001"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Campillo de Altobuey",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-07-09T06:25:54.821Z",
-      "notes": "yoyoy",
-      "position": {
-        "lat": "39.62261494094297",
-        "lng": "-1.8017578125000002"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Chribska",
-      "country": "Czechia",
-      "emoji": "🇨🇿",
-      "date": "2023-07-09T06:30:16.872Z",
-      "notes": "",
-      "position": {
-        "lat": "50.875311142200765",
-        "lng": "14.479980468750002"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Chribska",
-      "country": "Czechia",
-      "emoji": "🇨🇿",
-      "date": "2023-07-09T06:32:20.208Z",
-      "notes": "",
-      "position": {
-        "lat": "50.875311142200765",
-        "lng": "14.479980468750002"
-      },
-      "id": 98443201
     }
   ]
 }
