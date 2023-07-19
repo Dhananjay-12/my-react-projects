@@ -5,7 +5,13 @@ function MenuItem({ pizza }) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
 
   return (
-    <li className=" m-auto w-72 overflow-hidden rounded-lg bg-white shadow-2xl transition-all transition-transform duration-300 hover:scale-105 ">
+    <li
+      className={` m-auto w-72 overflow-hidden rounded-lg bg-white shadow-2xl  ${
+        !soldOut
+          ? "shadow-inner-xl transition-transform duration-300 hover:scale-105"
+          : ""
+      } `}
+    >
       <img
         className={`w-full object-cover ${
           soldOut ? "opacity-70 grayscale" : ""
