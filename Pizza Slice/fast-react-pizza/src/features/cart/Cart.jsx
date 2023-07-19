@@ -35,7 +35,9 @@ function Cart() {
       <h2>Your cart, %NAME%</h2>
       <div>
         {/* <Link to="/order/new">Order pizzas</Link> */}
-        <Button to="/order/new">Order Pizzas</Button>
+        <Button to="/order/new" type="primary">
+          Order Pizzas
+        </Button>
         <button>Clear cart</button>
       </div>
     </div>
