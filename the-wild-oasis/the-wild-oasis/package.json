@@ -17,6 +17,7 @@
     "styled-components": "^6.0.4"
   },
   "devDependencies": {
+    "@supabase/supabase-js": "^2.26.0",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@vitejs/plugin-react-swc": "^3.3.2",
