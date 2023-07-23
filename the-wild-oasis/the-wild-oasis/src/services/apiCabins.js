@@ -1,10 +1,10 @@
 import supabase from "./supabase";
 
 export async function getCabins() {
-  const { data, error } = await supabase.from("cabins").select("*");
+  let { data: cabins, error } = await supabase.from("cabins").select("*");
   if (error) {
-    console.log(error);
+    console.error(error);
     throw new Error("The cabins could not be loaded");
   }
-  console.log(data);
+  return cabins;
 }
