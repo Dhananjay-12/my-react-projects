@@ -3,10 +3,8 @@ import styled from "styled-components";
 import {
   HiOutlineCalendarDays,
   HiOutlineCog6Tooth,
-  HiOutlineCog8Tooth,
   HiOutlineHome,
   HiOutlineHomeModern,
-  HiOutlineUser,
   HiOutlineUsers,
 } from "react-icons/hi2";
 
