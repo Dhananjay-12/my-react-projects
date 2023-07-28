@@ -9,7 +9,6 @@ function Cabins() {
     <>
       <Row type="horizontal">
         <Heading as="h1">All cabins</Heading>
-        <p>filter/sort</p>
         <CabinTableOperations />
       </Row>
       <Row>
