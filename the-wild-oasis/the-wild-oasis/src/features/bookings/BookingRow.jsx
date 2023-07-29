@@ -87,9 +87,9 @@ function BookingRow({
 BookingRow.propTypes = {
   booking: PropTypes.shape({
     id: PropTypes.number.isRequired,
-    created_at: PropTypes.instanceOf(Date).isRequired,
-    startDate: PropTypes.number.isRequired,
-    endDate: PropTypes.number.isRequired,
+    created_at: PropTypes.string.isRequired,
+    startDate: PropTypes.string.isRequired, // Update the PropTypes to expect a string
+    endDate: PropTypes.string.isRequired,
     numNights: PropTypes.number.isRequired,
     numGuests: PropTypes.number.isRequired,
     totalPrice: PropTypes.number.isRequired,
